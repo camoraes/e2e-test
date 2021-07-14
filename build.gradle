@@ -49,6 +49,12 @@ test {
     systemProperties System.getProperties()
 }
 
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 gradle.startParameter.continueOnFailure = true
 
 test.finalizedBy(aggregate)
