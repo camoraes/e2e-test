@@ -1,9 +1,11 @@
-package starter.interactions;
+package starter.stepdefinitions.steps;
 
 import br.com.six2six.fixturefactory.Fixture;
 import net.thucydides.core.annotations.Step;
 import starter.data.Messages;
 import starter.data.UserModel;
+import starter.pages.MenuOptionPage;
+import starter.pages.QuestionarioComQAPage;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
