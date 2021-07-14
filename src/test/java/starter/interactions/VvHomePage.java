@@ -1,4 +1,4 @@
-package starter.navigation;
+package starter.interactions;
 
 import net.serenitybdd.core.pages.PageObject;
 

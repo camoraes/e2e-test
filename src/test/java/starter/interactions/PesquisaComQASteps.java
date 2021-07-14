@@ -1,4 +1,4 @@
-package starter.navigation;
+package starter.interactions;
 
 import br.com.six2six.fixturefactory.Fixture;
 import net.thucydides.core.annotations.Step;

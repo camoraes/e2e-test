@@ -4,8 +4,8 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 import net.thucydides.core.annotations.Steps;
-import starter.navigation.NavigateTo;
-import starter.navigation.PesquisaComQASteps;
+import starter.interactions.NavigateTo;
+import starter.interactions.PesquisaComQASteps;
 
 public class PesquisaComQaStepDefinitions {
 
